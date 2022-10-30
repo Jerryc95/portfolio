@@ -1,0 +1,60 @@
+@font-face {
+    font-family: SFMonoRegular;
+    src: url('/Users/jerrycox/Documents/dev/portfolio/src/fonts/sf-mono/SFMonoRegular.otf');
+}
+
+* {
+    color: #8892af;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+h1 {
+    margin: 20px 250px;
+    color: #ff7a70;
+    font-family: SFMonoRegular;
+    font-size: clamp(var(--fz-sm), 5vw, var(--fz-md));
+}
+
+h2 {
+    margin-left: 250px;
+    margin-top: 8px;
+    margin-bottom: 0px;
+    color: #c8d2f4;
+    font-size: calc(10px + 8vmin);
+    line-height: 0.9;
+}
+
+h3 {
+    margin-left: 250px;
+    margin-top: 15px;
+    line-height: 0.9;
+    font-size: calc(8px + 8vmin);
+    max-width: 650px;
+}
+
+h4 {
+    margin-left: 250px;
+    margin-top: 25px;
+    margin-bottom: 5px;
+    color: #c8d2f4;
+    font-size: calc(6px + 5vmin);
+    line-height: 0.9;
+    max-width: 850px;
+}
+h5 {
+    margin-left: 250px;
+    margin-top: 25px;
+    margin-bottom: 5px;
+    color: #c8d2f4;
+    font-size: calc(5px + 3vmin);
+    line-height: 1;
+    max-width: 850px;
+}
+
+p {
+    margin: 20px 250px 0;
+    max-width: 540px;
+    line-height: 1.5;
+
+  }

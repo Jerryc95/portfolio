@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import './hero.css';
 
 // const one = <h1>Hi, my name is</h1>;

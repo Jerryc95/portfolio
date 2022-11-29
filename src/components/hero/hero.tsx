@@ -24,7 +24,7 @@ const Hero = () => {
         </p>
         <h4>WORK IN PROGRESS!</h4>
         <h5>Thank you for stopping by! I'm currently in the process of 
-            building and showcasing my work here. Please check later! for know, please visit my <a href="https://github.com/Jerryc95">GitHub</a> </h5>
+            building and showcasing my work here. Please check later! for now, please visit my <a href="https://github.com/Jerryc95">GitHub</a>. </h5>
         </section>
     );
 }

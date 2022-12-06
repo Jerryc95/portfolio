@@ -1,22 +1,18 @@
-/* @font-face {
+@font-face {
     font-family: SFMonoRegular;
     src: url('/Users/jerrycox/Documents/dev/portfolio/src/fonts/sf-mono/SFMonoRegular.otf');
-} */
-
-* {
-    color: #8892af;
-    flex-direction: column;
-    align-items: flex-start;
 }
 
-h1 {
+
+
+.heading {
     margin: 20px 250px;
     color: #ff7a70;
-    /* font-family: SFMonoRegular; */
+    font-family: SFMonoRegular;
     font-size: clamp(var(--fz-sm), 5vw, var(--fz-md));
 }
 
-h2 {
+.name {
     margin-left: 250px;
     margin-top: 8px;
     margin-bottom: 0px;
@@ -25,7 +21,7 @@ h2 {
     line-height: 0.9;
 }
 
-h3 {
+.subheading {
     margin-left: 250px;
     margin-top: 15px;
     line-height: 0.9;
@@ -52,9 +48,13 @@ h5 {
     max-width: 850px;
 }
 
-p {
+.about-me {
     margin: 20px 250px 0;
     max-width: 540px;
     line-height: 1.5;
 
+  }
+
+  .app-link {
+    color: #ff7a70;
   }

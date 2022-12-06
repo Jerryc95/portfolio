@@ -1,0 +1,101 @@
+@font-face {
+  font-family: SFMonoRegular;
+  src: url("/Users/jerrycox/Documents/dev/portfolio/src/fonts/sf-mono/SFMonoRegular.otf");
+}
+
+.navBarItems {
+  display: flex;
+  height: 80px;
+  justify-content: space-between;
+  align-items: center;
+  font-family: SFMonoRegular;
+  padding-right: 30px;
+}
+
+.navbar-logo {
+  color: #ff7a70;
+  justify-self: start;
+  margin-left: 25px;
+}
+
+.nav-menu {
+  display: grid;
+  grid-template-columns: repeat(5, auto);
+  width: 90vw;
+  grid-gap: 20px;
+  justify-content: end;
+  text-align: end;
+  list-style: none;
+}
+
+.nav-links {
+  position: relative;
+  padding: 5px;
+  text-decoration: none;
+}
+
+.nav-links:hover {
+  color: #ff7a70;
+}
+
+.nav-links-mobile {
+    display: none ;
+}
+
+.menu-icon {
+    display: none;
+}
+
+.nav-menu-active {
+    display: none;
+}
+
+
+
+/* @media screen and (max-width: 760px) {
+    .navBarItems {
+        position: relative;
+    }
+
+    .nav-menu {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: 500px;
+        position: absolute;
+        top: 80px;
+        left: -100%;
+        opacity: 1;
+        transition: all 0.5s ease;
+    }
+    .nav-links {
+        text-align: center;
+        padding: 2rem;
+        width: 100%;
+        display: table;
+        text-decoration: none;
+    }
+    .nav-links-mobile {
+        display: block;
+        text-align: center;
+        padding: 1.5rem;
+        border-radius: 4px;
+        width: 80%;
+    }
+    .navbar-logo {
+        position: absolute;
+        top: 0;
+        left: 0;
+        transform: translate(25%, 50%);
+    }
+    .menu-icon {
+        display: block;
+        position: absolute;
+        top: 0;
+        right: 0;
+        transform: translate(-100%, 60%);
+    }
+    Button {
+        display: none;
+    }
+} */

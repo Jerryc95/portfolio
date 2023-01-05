@@ -1,6 +1,6 @@
 @font-face {
   font-family: SFMonoRegular;
-  src: url("/Users/jerrycox/Documents/dev/portfolio/src/fonts/sf-mono/SFMonoRegular.otf");
+  src: url("/src/fonts/sf-mono/SFMonoRegular.otf");
 }
 
 .navBarItems {
@@ -26,12 +26,15 @@
   justify-content: end;
   text-align: end;
   list-style: none;
+  margin: 0;
 }
 
 .nav-links {
   position: relative;
   padding: 5px;
+  color: #c8d2f4;
   text-decoration: none;
+  font-size: 14px;
 }
 
 .nav-links:hover {
@@ -52,7 +55,7 @@
 
 
 
-/* @media screen and (max-width: 760px) {
+@media screen and (max-width: 760px) {
     .navBarItems {
         position: relative;
     }
@@ -98,4 +101,4 @@
     Button {
         display: none;
     }
-} */
+}

@@ -1,0 +1,38 @@
+@font-face {
+  font-family: SFMonoRegular;
+  src: url("/src/fonts/sf-mono/SFMonoRegular.otf");
+}
+
+.card-header {
+  color: #c8d2f4 !important;
+  font-family: SFMonoRegular;
+  text-align: start;
+  padding: 10px !important;
+}
+
+
+
+.card-description {
+  font-family: SFMonoRegular;
+  background: none;
+  text-align: start;
+  font-size: 10.5px;
+  padding: 20px;
+}
+
+.card-links {
+}
+
+.card-stacks {
+    background: none;
+    padding: 20px;
+}
+
+.card-stack {
+  font-family: SFMonoRegular;
+  background: none;
+  text-align: start;
+  font-size: 10.5px;
+  /* padding: 4px; */
+  
+}

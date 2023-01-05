@@ -1,0 +1,79 @@
+export const projectItems = [
+  {
+    title: "Rate WoW Players",
+    description: "A web app where users can search for a World of Warcraft character and write reviews on that character and see other user's reviews.",
+    github: "https://github.com/Jerryc95/Rate-wow-players",
+    link: "https://bejewelled-halva-7dad01.netlify.app",
+    stack: ["React", "Bootstraps", "Supabase", "netlify"],
+    cName: "project-card"
+  },
+  {
+    title: "React Chat",
+    description: "A global chatroom where users can sign in through Google and chat to whoever else is in the room.",
+    github: "https://github.com/Jerryc95/react-chat",
+    link: "",
+    stack: ["React", "Firebase"],
+    cName: "project-card"
+  },
+  {
+    title: "Web Portfolio",
+    description: "This site!",
+    github: "https://github.com/Jerryc95/portfolio",
+    link: "",
+    stack: ["TypeScript", "React", "Netlify", "CSS"],
+    cName: "project-card"
+  },
+  {
+    title: "React Budget",
+    description: "A simple budgeting app that let's users add expenses and see their remaining budget.",
+    github: "https://github.com/Jerryc95/react-budget-tracker",
+    link: "",
+    stack: ["React", "Bootstraps"],
+    cName: "project-card"
+  },
+  {
+    title: "PokePocket",
+    description:
+      "PokePocket is a Pokedex written in pure Swift using the SwiftUI framework. It allows users to view and search a list of all Pokemon and view information for each Pokemon. This includes an image, stats, description, evolution chain and found locations.",
+    github: "https://github.com/Jerryc95/PokePocket",
+    link: "",
+    stack: ["Swift", "SwiftUI", "PokeAPI"],
+    cName: "project-card"
+  },
+  {
+    title: "CouchNerd",
+    description: "A watchlist app that lets users search movies, TV Shows and games, add them to watchlists and rate and review it from themselves.",
+    github: "https://github.com/Jerryc95/CouchNerd",
+    link: "",
+    stack: ["Swift, SwiftUI", "Core Data"],
+    cName: "project-card"
+  },
+  {
+    title: "Who's That Pokemon!?",
+    description: "Based of the classic anime's commerical break game, users have a limited to guess which pokemon's shadow is displayed on the screen out of the four choices to pick from.",
+    github: "https://github.com/Jerryc95/WhosThatPokemon",
+    link: "",
+    stack: ["Swift", "SwiftUI"],
+    cName: "project-card"
+  },
+  {
+    title: "Warcraft Quiz",
+    description:
+      "A multiple choice quiz web app using React that asks users different questions about Warcraft lore.",
+    github: "https://github.com/Jerryc95/warcraft-quiz",
+    link: "",
+    stack: ["React"],
+    cName: "project-card"
+  },
+  {
+    title: "React Weather",
+    description:
+      "A simple web app that allows users to search their location to get the current weather. Built using React and the OpenWeather API.",
+    github: "https://github.com/Jerryc95/weather-app",
+    link: "",
+    stack: ["React", "OpenWeather API"],
+    cName: "project-card"
+  },
+];
+
+export default projectItems;

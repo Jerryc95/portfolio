@@ -57,3 +57,14 @@
   background: none;
   font-size: 10.5px;
 }
+
+@media screen and (max-width: 760px) {
+    .card-header {
+        display: flex;
+        flex-direction: row;
+        justify-content: start;
+        align-items: flex-start;
+        margin-top: 10px;
+      }
+
+}

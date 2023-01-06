@@ -3,3 +3,11 @@
   background-color: #0a182e;
 }
 
+ .developed {
+  font-family: SFMonoRegular;
+  color: #ff7a70;
+  text-align: end;
+  margin: 15px;
+  font-size: small;
+ }
+

@@ -23,7 +23,6 @@ const Project: React.FC<projectProp> = (props) => {
               target="_blank"
               rel="noopener noreferrer"
             >
-              {""}
               <i className="fa-solid fa-up-right-from-square"></i>
             </a>
           ) : (
@@ -35,7 +34,6 @@ const Project: React.FC<projectProp> = (props) => {
             target="_blank"
             rel="noopener noreferrer"
           >
-            {""}
             <i className="fa-brands fa-github"></i>
           </a>
         </div>

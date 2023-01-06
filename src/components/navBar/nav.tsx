@@ -12,7 +12,7 @@ const Nav = () => {
       setToggleClick(true);
     } else {
       setToggleClick(false);
-    } 
+    }
   };
 
   return (
@@ -20,7 +20,7 @@ const Nav = () => {
       <h1 className="navbar-logo">JC</h1>
       <div className="menu-icon" onClick={handleClick}>
         {toggleClick ? (
-          <i className="fa-solid fa-xmark"></i>        
+          <i className="fa-solid fa-xmark"></i>
         ) : (
           <i className="fa-solid fa-bars"></i>
         )}
@@ -36,7 +36,13 @@ const Nav = () => {
           );
         })}
       </ul>
-      <Button>Resume</Button>
+      <a
+        href="/JerryCoxResume.pdf"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        <Button>resume</Button>
+      </a>
     </nav>
   );
 };

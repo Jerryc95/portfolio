@@ -1,8 +1,6 @@
 import React, { useState } from "react";
 import MenuItems from "./menuItems";
 import Button from "../button/button";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-
 
 import "./nav.css";
 
@@ -22,11 +20,9 @@ const Nav = () => {
       <h1 className="navbar-logo">JC</h1>
       <div className="menu-icon" onClick={handleClick}>
         {toggleClick ? (
-          // <i className="fa-solid fa-xmark"></i>
-          <p>close</p>
+          <i className="fa-solid fa-xmark"></i>        
         ) : (
-          // <i className="fa-solid fa-bars"></i>
-          <p>open</p>
+          <i className="fa-solid fa-bars"></i>
         )}
       </div>
       <ul className={toggleClick ? "nav-menu-active" : "nav-menu"}>

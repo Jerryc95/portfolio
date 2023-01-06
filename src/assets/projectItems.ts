@@ -17,7 +17,7 @@ export const projectItems = [
   },
   {
     title: "Web Portfolio",
-    description: "This site!",
+    description: "This site! Built using Typescript and includes FontAwesome icons.",
     github: "https://github.com/Jerryc95/portfolio",
     link: "",
     stack: ["TypeScript", "React", "Netlify", "CSS"],
@@ -34,7 +34,7 @@ export const projectItems = [
   {
     title: "PokePocket",
     description:
-      "PokePocket is a Pokedex written in pure Swift using the SwiftUI framework. It allows users to view and search a list of all Pokemon and view information for each Pokemon. This includes an image, stats, description, evolution chain and found locations.",
+      "A Pokedex where users can view and search a list of all Pokemon and view data for each Pokemon. Includes an image, stats, description, evolution chain and found locations.",
     github: "https://github.com/Jerryc95/PokePocket",
     link: "",
     stack: ["Swift", "SwiftUI", "PokeAPI"],
@@ -45,7 +45,7 @@ export const projectItems = [
     description: "A watchlist app that lets users search movies, TV Shows and games, add them to watchlists and rate and review it from themselves.",
     github: "https://github.com/Jerryc95/CouchNerd",
     link: "",
-    stack: ["Swift, SwiftUI", "Core Data"],
+    stack: ["Swift", "SwiftUI", "Core Data"],
     cName: "project-card"
   },
   {

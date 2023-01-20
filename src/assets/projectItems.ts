@@ -66,12 +66,12 @@ export const projectItems = [
     cName: "project-card"
   },
   {
-    title: "React Weather",
+    title: "BGHistory",
     description:
-      "A simple web app that allows users to search their location to get the current weather. Built using React and the OpenWeather API.",
+      "A World of Warcraft addon that keeps track of a player's wins and losses against other players for each map. Currently a work in process.",
     github: "https://github.com/Jerryc95/weather-app",
-    link: "",
-    stack: ["React", "OpenWeather API"],
+    link: "https://github.com/Jerryc95/BGHistory",
+    stack: ["Lua", "WoW API"],
     cName: "project-card"
   },
 ];

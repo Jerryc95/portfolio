@@ -55,7 +55,7 @@
 }
 
 .skill-item:before {
-  content: "⚫";
+  content: "•";
   margin-right: 0.5rem;
   color: #ff7a70;
 }

@@ -25,7 +25,7 @@ const About = () => {
             software engineer. I've always had a passionate for software and
             technology so I decided to leave the advertising industry and focus
             on my true passion of creating and building software. In May of
-            2021, I left my job at Meta to pursue my passion and teach myself
+            2022, I left my job at Meta to pursue my passion and teach myself
             software development.
           </p>
           <p>

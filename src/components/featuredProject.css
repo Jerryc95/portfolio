@@ -1,0 +1,15 @@
+.featured-project-title::before {
+    content: "02.";
+    font-family: SFMonoRegular;
+    margin-right: 0.5rem;
+    color: #ff7a70;
+    font-size: calc(8px + 1vmin);
+  }
+  
+  .featured-project-title:after {
+    content: "";
+    margin-left: 1.2rem;
+    height: 1px;
+    background-color: #8892af;
+    width: 200px;
+  }

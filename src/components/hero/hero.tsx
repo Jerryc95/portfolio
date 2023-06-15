@@ -8,10 +8,10 @@ const Hero = () => {
       <div className="name">Jerry Cox</div>
       <div className="subheading">Creating & building software.</div>
       <div className="about-me">
-        I'm an aspiring software engineer and app developer looking to shift
-        careers from social media advertising and break into the field of
-        software developement. Currently, I am learning and developing fullstack
-        applications with a focus on front-end.
+        I am an aspiring software engineer and app developer, seeking to
+        transition from social media advertising to the field of software
+        development. I am currently focused on building and developing
+        full-stack applications.
       </div>
     </div>
   );

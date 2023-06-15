@@ -25,7 +25,8 @@ const Nav = () => {
           <i className="fa-solid fa-bars"></i>
         )}
       </div>
-      <ul className={toggleClick ? "nav-menu-active" : "nav-menu"}>
+      <div className={toggleClick ? "nav-menu expanded" : "nav-menu"}>
+      <ul >
         {MenuItems.map((item, index) => {
           return (
             <li key={index}>
@@ -35,14 +36,16 @@ const Nav = () => {
             </li>
           );
         })}
-      </ul>
+      
       <a
-        href="/JerryCoxResume.pdf"
+        href="/JerryCox_Resume.pdf"
         target="_blank"
         rel="noopener noreferrer"
       >
         <Button>resume</Button>
       </a>
+      </ul>
+      </div>
     </nav>
   );
 };

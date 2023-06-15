@@ -1,15 +1,6 @@
 export const projectItems = [
   
   {
-    title: "BGHistory",
-    description:
-      "A web app where users can search for a World of Warcraft character and write reviews on that character and see other user's reviews.",
-    github: "https://github.com/Jerryc95/BGHistory",
-    link: "https://www.curseforge.com/wow/addons/bghistory",
-    stack: ["Lua", "WoW API"],
-    cName: "project-card"
-  },
-  {
     title: "Rate WoW Players",
     description:
       "A web app where users can search for a World of Warcraft character and write reviews on that character and see other user's reviews.",
@@ -17,6 +8,15 @@ export const projectItems = [
     link: "https://bejewelled-halva-7dad01.netlify.app",
     stack: ["React", "Bootstraps", "Supabase", "netlify"],
     cName: "project-card"
+  },
+  {
+    title: "BGHistory",
+    description:
+      "A World of Warcraft addon that keeps track of a player's wins and losses against other players for each map. Currently a work in process.",
+    github: "https://github.com/Jerryc95/BGHistory",
+    link: "https://www.curseforge.com/wow/addons/bghistory",
+    stack: ["Lua", "WoW API"],
+    cName: "project-card",
   },
   {
     title: "React Chat",

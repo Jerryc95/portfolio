@@ -3,8 +3,10 @@ import "./App.css";
 import Hero from "../components/hero/hero";
 import Nav from "../components/navBar/nav";
 import About from "../components/about/about";
+import FeaturedProject from "../components/featuredProject";
 import Projects from "../components/projects/projects";
 import Contact from "../components/contact/contact";
+
 
 function App() {
   return (
@@ -15,6 +17,7 @@ function App() {
         <About />
       </div>
       <div id="projects">
+        <FeaturedProject />
         <Projects />
       </div>
       <div id="contact">

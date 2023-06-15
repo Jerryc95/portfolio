@@ -41,6 +41,7 @@
 
 @media screen and (max-width: 760px) {
   .hero-container {
-    margin: 20px 100px;
+    margin-left: 50px;
+    margin-bottom: 50px;
   }
 }

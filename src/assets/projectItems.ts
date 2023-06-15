@@ -1,4 +1,5 @@
 export const projectItems = [
+  
   {
     title: "Rate WoW Players",
     description:
@@ -6,16 +7,7 @@ export const projectItems = [
     github: "https://github.com/Jerryc95/Rate-wow-players",
     link: "https://bejewelled-halva-7dad01.netlify.app",
     stack: ["React", "Bootstraps", "Supabase", "netlify"],
-    cName: "project-card",
-  },
-  {
-    title: "BGHistory",
-    description:
-      "A World of Warcraft addon that keeps track of a player's wins and losses against other players for each map. Currently a work in process.",
-    github: "https://github.com/Jerryc95/BGHistory",
-    link: "",
-    stack: ["Lua", "WoW API"],
-    cName: "project-card",
+    cName: "project-card"
   },
   {
     title: "React Chat",

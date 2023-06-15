@@ -1,6 +1,15 @@
 export const projectItems = [
   
   {
+    title: "BGHistory",
+    description:
+      "A web app where users can search for a World of Warcraft character and write reviews on that character and see other user's reviews.",
+    github: "https://github.com/Jerryc95/BGHistory",
+    link: "https://www.curseforge.com/wow/addons/bghistory",
+    stack: ["Lua", "WoW API"],
+    cName: "project-card"
+  },
+  {
     title: "Rate WoW Players",
     description:
       "A web app where users can search for a World of Warcraft character and write reviews on that character and see other user's reviews.",

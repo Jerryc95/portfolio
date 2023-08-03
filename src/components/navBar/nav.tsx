@@ -38,7 +38,7 @@ const Nav = () => {
         })}
       
       <a
-        href="/JerryCox_Resume.pdf"
+        href="/JerryCoxResume.pdf"
         target="_blank"
         rel="noopener noreferrer"
       >

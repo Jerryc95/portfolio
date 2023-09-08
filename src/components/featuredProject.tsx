@@ -14,7 +14,7 @@ const FeaturedProject = () => {
 
   return (
     <div className="featured-project-container">
-      <div className="featured-project-title">Featured Project</div>
+      <div className="featured-project-title">My Work</div>
       <a
         className="project-link"
         href={"https://playnexus.app"}

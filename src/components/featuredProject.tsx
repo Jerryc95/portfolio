@@ -2,8 +2,10 @@ import React from "react";
 import "./featuredProject.css";
 import NexusGameExample from "./../assets/NexusGameExample.png";
 
+
+
 const FeaturedProject = () => {
-  const stack = [
+  const nexusStack = [
     "React",
     "Express.JS",
     "Node.JS",
@@ -41,7 +43,7 @@ const FeaturedProject = () => {
           <p>Technology Stack:</p>
           <div className="project-stack">
             <ul>
-              {stack.map((tech, id) => (
+              {nexusStack.map((tech, id) => (
                 <li className="project-stack-item" key={id}>
                   {tech}
                 </li>

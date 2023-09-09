@@ -16,8 +16,10 @@ function App() {
       <div id="about">
         <About />
       </div>
+      <div id="work">
+        <FeaturedProject /> 
+      </div>
       <div id="projects">
-        <FeaturedProject />
         <Projects />
       </div>
       <div id="contact">

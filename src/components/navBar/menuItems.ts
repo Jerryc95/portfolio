@@ -6,14 +6,14 @@ export const MenuItems = [
     },
     {
         title: 'Work',
+        url: '#work',
+        cName: 'nav-links'
+    },
+    {
+        title: 'projects',
         url: '#projects',
         cName: 'nav-links'
     },
-    // {
-    //     title: 'Work',
-    //     url: '#work',
-    //     cName: 'nav-links'
-    // },
     {
         title: 'Contact',
         url: '#contact',

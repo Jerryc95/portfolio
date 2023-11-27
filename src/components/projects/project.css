@@ -4,7 +4,7 @@
 }
 
 .card-header {
-  color: #c8d2f4 !important;
+  /* color: #c8d2f4 !important; */
   font-family: SFMonoRegular;
   text-align: start;
   padding: 10px !important;
@@ -24,7 +24,7 @@
 
 .card-links {
   background:none;
-  background-color: #0d203b;
+  /* background-color: #0d203b; */
   
 }
 
@@ -40,11 +40,13 @@
   }
 
   .fa-brands:hover {
-    color: #ff7a70;
+    /* color: #ff7a70; */
+    color: #3454D1;
   }
 
   .fa-solid:hover {
-    color: #ff7a70;
+    /* color: #ff7a70; */
+    color: #3454D1;
   }
 
 .card-stacks {

@@ -11,14 +11,15 @@
   content: "02.";
   font-family: SFMonoRegular;
   margin-right: 0.5rem;
-  color: #ff7a70;
+  /* color: #ff7a70; */
+  color: #3454D1;
   font-size: calc(8px + 1vmin);
 }
 
 .featured-project-title {
   display: flex;
   align-items: center;
-  color: #c8d2f4;
+  /* color: #c8d2f4; */
   font-size: calc(4px + 2vmin);
   margin-bottom: 15px;
   padding-right: 10px;
@@ -35,27 +36,56 @@
 }
 .project-link {
   text-decoration: none;
-  color: #c8d2f4;
+  /* color: #c8d2f4; */
+  color: #070707;
   font-weight: bold;
   max-width: 350px;
 }
 
 .project-link:hover {
-  color: #ff7a70;
+  /* color: #ff7a70; */
+  color: #3454D1;
 }
 
-.featured-project-image {
+/* .featured-project-details {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+} */
+
+.featured-project-details {
+  display: flex;
+  justify-content: space-evenly;
+  padding-top: 10px;
+}
+
+.featured-project-details-reverse {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-evenly;
+  padding-top: 10px;
+
+}
+
+
+/* .featured-project-image {
   grid-column: 1/2;
   grid-row: 1;
   width: 100%;
   max-width: 55rem;
   height: auto;
+} */
+
+.featured-project-image-container {
+  width: 50%;
+  height: auto;
 }
 
-.featured-project-details {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
+.featured-project-image {
+  width: 100%;
+  height: auto;
+  border-radius: 15px;
 }
+
 
 .featured-project-about {
   grid-column: 2/2;
@@ -82,7 +112,8 @@
 .project-stack-item::before {
   content: "•";
   margin-right: 0.5rem;
-  color: #ff7a70;
+  /* color: #ff7a70; */
+  color: #3454D1;
 }
 
 @media screen and (max-width: 760px) {
@@ -93,9 +124,21 @@
   }
 
   .featured-project-details {
+    display: grid;
   align-content: baseline;
     grid-template-columns: repeat(1, 1fr);
   }
+
+  .featured-project-details-reverse {
+    display: grid;
+  align-content: baseline;
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .featured-project-image-container {
+    padding-bottom: 10px;
+  }
+
   .featured-project-image {
     grid-column: 1/1;
     grid-row: 1;

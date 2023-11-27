@@ -17,7 +17,8 @@
   .contact-title {
     display: inline-flex;
     align-items: center;
-    color: #c8d2f4;
+    /* color: #c8d2f4; */
+    color: #070707;
     font-size: calc(4px + 2vmin);
     width: max-content;
     min-width: 300px;
@@ -31,7 +32,8 @@
     content: "04.";
     font-family: SFMonoRegular;
     margin-right: 0.5rem;
-    color: #ff7a70;
+    /* color: #ff7a70; */
+    color: #3454D1;
     font-size: calc(8px + 1vmin);
   }
   

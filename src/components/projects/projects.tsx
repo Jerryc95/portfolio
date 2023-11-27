@@ -6,7 +6,7 @@ import "./projects.css";
 const Projects = () => {
   return (
     <div className="projects-container">
-      <div className="projects-title">Projects</div>
+      <div className="projects-title">Project Vault</div>
       <div className="projects-content">
         <div className="projects-body">
           Below you will find some of the work I've done so far with more to

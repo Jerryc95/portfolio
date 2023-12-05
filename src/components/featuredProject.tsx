@@ -1,7 +1,8 @@
 import React from "react";
 import "./featuredProject.css";
 import NexusGameExample from "./../assets/NexusGameExample.png";
-import AWRExample from "./../assets/AWRHomePage.png";
+// import AWRExample from "./../assets/AWRHomePage.png";
+import AWRExample from "./../assets/AWRHomePage.png"
 
 const FeaturedProject = () => {
   const nexusStack = [
@@ -65,7 +66,7 @@ const FeaturedProject = () => {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Adventures With Rocco
+          Adventures By Rocco
         </a>
         <div className="featured-project-details-reverse">
           <div className="featured-project-image-container">

@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { Link } from "react-router-dom";
 import MenuItems from "./menuItems";
 import Button from "../button/button";
 
@@ -17,7 +18,9 @@ const Nav = () => {
 
   return (
     <nav className="navBarItems">
+      <Link className="navbar-logo" to='/'>
       <h1 className="navbar-logo">JC</h1>
+      </Link>  
       <div className="menu-icon" onClick={handleClick}>
         {toggleClick ? (
           <i className="fa-solid fa-xmark"></i>
@@ -26,25 +29,30 @@ const Nav = () => {
         )}
       </div>
       <div className={toggleClick ? "nav-menu expanded" : "nav-menu"}>
-      <ul >
-        {MenuItems.map((item, index) => {
-          return (
-            <li key={index}>
-              <a className={item.cName} href={item.url}>
-                {item.title}
-              </a>
-            </li>
-          );
-        })}
-      
-      <a
-        href="/JerryCoxResume.pdf"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        <Button>resume</Button>
-      </a>
-      </ul>
+        <ul>
+          <li>
+            <Link className="nav-links" to="/apps">
+              <span className="nav-links">Apps</span>
+            </Link>
+          </li>
+          {MenuItems.map((item, index) => {
+            return (
+              <li key={index}>
+                <a className="nav-links" href={item.url}>
+                  {item.title}
+                </a>
+              </li>
+            );
+          })}
+
+          <a
+            href="/JerryCoxResume.pdf"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <Button>resume</Button>
+          </a>
+        </ul>
       </div>
     </nav>
   );

@@ -1,32 +1,21 @@
 import React from "react";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+
 import "./App.css";
-import Hero from "../components/hero/hero";
-import Nav from "../components/navBar/nav";
-import About from "../components/about/about";
-import FeaturedProject from "../components/featuredProject";
-import Projects from "../components/projects/projects";
-import Contact from "../components/contact/contact";
+import HomePage from "../pages/homePage";
+import AppPage from "../pages/appPage/appPage";
+import AppDetailPage from "../pages/appPage/appComponents/appDetailPage";
 
 
 function App() {
   return (
-    <div className="App">
-      <Nav />
-      <Hero />
-      <div id="about">
-        <About />
-      </div>
-      <div id="work">
-        <FeaturedProject /> 
-      </div>
-      <div id="projects">
-        <Projects />
-      </div>
-      <div id="contact">
-        <Contact />
-      </div>
-      <p className="developed">Developed by Jerry Cox</p>
-    </div>
+    <BrowserRouter>
+    <Routes>
+      <Route path="/" element={<HomePage />}/>
+      <Route path="/apps" element={<AppPage />}/>
+      <Route path ="/apps/:app" element={<AppDetailPage />}/>
+    </Routes>
+    </BrowserRouter>
   );
 }
 

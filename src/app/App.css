@@ -1,0 +1,22 @@
+* {
+  /* color: #8892af; */
+  color: #070707;
+  /* background-color: #0a182e; */
+  background-color: #EFEFEF;
+}
+
+ .developed {
+  font-family: SFMonoRegular;
+  /* color: #ff7a70; */
+  color: #3454D1;
+  text-align: end;
+  margin: 15px;
+  font-size: small;
+ }
+
+
+@media screen and (max-width: 760px) {
+  html {
+    width: 100%
+  };
+}

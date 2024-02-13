@@ -10,7 +10,7 @@ export const BatteryVision: AppItem = {
   headerImage: BatteryVisionAppIcon,
   description:
     "Battery Vision is a sleek and compact battery widget designed to help you effortlessly monitor both the time and the estimated power level of your Apple Vision Pro, all without the hassle of opening Control Center. With its small and unobtrusive design, Battery Vision seamlessly integrates into your workflow, whether you're fully immersed in your tasks or simply using pass through.",
-  appLink: null,
+  appLink: "https://apps.apple.com/us/app/battery-vision/id6477749112",
   webLink: null,
   features: [
     "Quickly view the estimated percentage of battery life remaining on your Apple Vision Pro, allowing you to stay informed about your device's power status at a glance.",

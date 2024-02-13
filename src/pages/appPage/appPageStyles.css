@@ -154,6 +154,12 @@ margin-bottom: 5px;
     width: 90%;
 }
 
+.app-store-link {
+    width: 12rem;
+    height: auto;
+    padding-bottom: 8px;
+  }
+
 @media screen and (max-width: 760px) {
     .app-page-container {
         margin-left: 25px;

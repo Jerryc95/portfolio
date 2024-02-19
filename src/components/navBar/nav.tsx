@@ -32,7 +32,7 @@ const Nav = () => {
         <ul>
           <li>
             <Link className="nav-links" to="/apps">
-              <span className="nav-links">Apps</span>
+              <span>Apps</span>
             </Link>
           </li>
           {MenuItems.map((item, index) => {

@@ -11,7 +11,7 @@ const AppListItem: React.FC<AppListItemProps> = ({ app }) => {
       <div className="app-header-image-container">
         <img className="app-header-image" src={app.headerImage} alt="" />
       </div>
-      <h3>{app.title}</h3>
+      <h5>{app.title}</h5>
     </div>
   );
 };

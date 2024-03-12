@@ -1,5 +1,5 @@
 import React from "react";
-import { useParams } from "react-router-dom";
+import { useParams, useNavigate } from "react-router-dom";
 
 import { appItems } from "../../../assets/appItems";
 import Nav from "../../../components/navBar/nav";
@@ -8,13 +8,19 @@ import appStoreLink from "../../../assets/apps/appImages/appStoreLink.png";
 
 const AppDetailPage: React.FC = () => {
   const { app } = useParams();
+  const navigate = useNavigate();
   const foundApp = appItems.find((a) => a.param === app!)!;
 
-  console.log(foundApp.images);
+  const goBack = () => {
+    navigate(-1);
+  };
 
   return (
     <div>
       <Nav />
+      <div className="back-button">
+        <button onClick={goBack}>Go Back</button>
+      </div>
       <div className="app-details-container">
         <h3>{foundApp.title}</h3>
         <div className="app-details-image-container">
@@ -29,7 +35,16 @@ const AppDetailPage: React.FC = () => {
             <li>{platform}</li>
           ))}
         </ul>
-        {foundApp.webLink && <p>{foundApp.webLink}</p>}
+        {foundApp.webLink && (
+          <a
+            className="web-link"
+            href={foundApp.webLink}
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            {foundApp.webLink}
+          </a>
+        )}
         {foundApp.appLink && (
           <a href={foundApp.appLink} target="_blank" rel="noopener noreferrer">
             <img className="app-store-link" src={appStoreLink} alt="" />

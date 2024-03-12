@@ -12,6 +12,8 @@
   .carousel img {
     width: 100%;
     transition: transform 0.5s ease;
+    padding: 10px;
+    justify-content: center;
   }
   
   .carousel-button {

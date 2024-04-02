@@ -15,7 +15,7 @@ export const wisp: AppItem = {
         "Unlimited Boards",
         "Flexible Columns",
         "Unlimited Tasks",
-        "Reurring Todos",
+        "Recurring Todos",
         "Comprehensive Summary",
         "Designed for visionOS",
     ],

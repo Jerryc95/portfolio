@@ -17,7 +17,7 @@ const FeaturedProject = () => {
   // const AWRStack = ["HTML", "CSS", "JavaScript"];
 
   const FlowplanrStack = [
-    "Electron, Typescript, React, Express.JS, PostgreSQL",
+    "Electron", "Typescript", "React", "Express.JS", "PostgreSQL",
   ];
 
   return (

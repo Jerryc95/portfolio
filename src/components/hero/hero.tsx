@@ -8,8 +8,8 @@ const Hero = () => {
       <div className="name">Jerry Cox</div>
       <div className="subheading">Creating & building software.</div>
       <div className="about-me">
-        Helping people and businesses turn their ideas into sites and apps that
-        work fluently and are designed beautifully.
+        Building intuitive, high-performance apps and software with clean code
+        and thoughtful design. 
       </div>
     </div>
   );

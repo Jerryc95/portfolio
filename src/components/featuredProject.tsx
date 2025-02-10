@@ -2,7 +2,7 @@ import React from "react";
 import "./featuredProject.css";
 import NexusGameExample from "./../assets/NexusGameExample.png";
 // import AWRExample from "./../assets/AWRHomePage.png";
-import AWRExample from "./../assets/AWRHomePage.png"
+import FPExample from "./../assets/dashboard.png";
 
 const FeaturedProject = () => {
   const nexusStack = [
@@ -14,7 +14,11 @@ const FeaturedProject = () => {
     "Swift",
   ];
 
-  const AWRStack = ["HTML", "CSS", "JavaScript"];
+  // const AWRStack = ["HTML", "CSS", "JavaScript"];
+
+  const FlowplanrStack = [
+    "Electron, Typescript, React, Express.JS, PostgreSQL",
+  ];
 
   return (
     <div className="featured-project-container">
@@ -62,35 +66,32 @@ const FeaturedProject = () => {
       <div>
         <a
           className="project-link"
-          href={"https://storied-hotteok-4bfb61.netlify.app/"}
+          href={"https://flowplanr.com"}
           target="_blank"
           rel="noopener noreferrer"
         >
-          Adventures By Rocco
+          Flowplanr
         </a>
         <div className="featured-project-details-reverse">
           <div className="featured-project-image-container">
             <img
               className="featured-project-image"
-              src={AWRExample}
+              src={FPExample}
               alt="Adventures With Rocco home page"
             />
           </div>
 
           <div className="featured-project-about">
             <p>
-              I had the pleasure of developing a vibrant and user-friendly
-              website for Rocco, providing visitors with a
-              seamless experience to plan and book enchanting trips to Disney
-              and other renowned parks like Universal. The site serves as a
-              convenient hub for travelers to connect with my client,
-              transforming the magic of Disney into personalized and
-              unforgettable adventures.
+              A project management application tailored for freelancers,
+              soloists, and hobbyists. Flowplanr streamlines project and task
+              management, bookkeeping, and CRM while removing unnecessary
+              features, offering independent workers a more affordable solution.
             </p>
             <p>Technology Stack:</p>
             <div className="project-stack">
               <ul>
-                {AWRStack.map((tech, id) => (
+                {FlowplanrStack.map((tech, id) => (
                   <li className="project-stack-item" key={id}>
                     {tech}
                   </li>
